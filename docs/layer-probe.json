@@ -1,0 +1,1484 @@
+[
+ {
+  "label": "Hawaii County Parcels",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/ParcelsZoning/MapServer/5",
+  "name": "Hawaii County Parcels",
+  "geometryType": "esriGeometryPolygon",
+  "maxRecordCount": 1000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "objectid",
+    "OID",
+    "OBJECTID"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "Shape"
+   ],
+   [
+    "tmk",
+    "Integer",
+    "TMK"
+   ],
+   [
+    "tmk_txt",
+    "String",
+    "TMK_txt"
+   ],
+   [
+    "cty_tmk",
+    "String",
+    "cty_tmk"
+   ],
+   [
+    "majorowner",
+    "String",
+    "MajorOwner"
+   ],
+   [
+    "landvalue",
+    "Integer",
+    "LandValue"
+   ],
+   [
+    "landexempt",
+    "Integer",
+    "LandExempt"
+   ],
+   [
+    "bldgvalue",
+    "Integer",
+    "BldgValue"
+   ],
+   [
+    "bldgexempt",
+    "Integer",
+    "BldgExempt"
+   ],
+   [
+    "pittcode",
+    "Integer",
+    "PittCode"
+   ],
+   [
+    "homeowner",
+    "String",
+    "Homeowner"
+   ],
+   [
+    "nhoodcode",
+    "String",
+    "NHoodCode"
+   ],
+   [
+    "taxacres",
+    "Double",
+    "TaxAcres"
+   ],
+   [
+    "gisacres",
+    "Double",
+    "GISAcres"
+   ],
+   [
+    "qpub_link",
+    "String",
+    "qpub_link"
+   ],
+   [
+    "zone",
+    "String",
+    "ZONE"
+   ],
+   [
+    "section",
+    "String",
+    "SECTION"
+   ],
+   [
+    "plat",
+    "String",
+    "PLAT"
+   ],
+   [
+    "parcel",
+    "String",
+    "PARCEL"
+   ],
+   [
+    "st_area(shape)",
+    "Double",
+    "st_area(shape)"
+   ],
+   [
+    "st_perimeter(shape)",
+    "Double",
+    "st_perimeter(shape)"
+   ]
+  ],
+  "countInBbox": 9486,
+  "sample": {
+   "objectid": 32748,
+   "tmk": 311030091,
+   "tmk_txt": "311030091",
+   "cty_tmk": "11030091",
+   "majorowner": "other",
+   "landvalue": 35700,
+   "landexempt": 0,
+   "bldgvalue": 0,
+   "bldgexempt": 0,
+   "pittcode": 500,
+   "homeowner": "N",
+   "nhoodcode": "1131-5",
+   "taxacres": 3.0,
+   "gisacres": 3.04051433,
+   "qpub_link": "https://qpublic.schneidercorp.com/Application.aspx?AppID=1048&PageTypeID=4&KeyValue=110300910000",
+   "zone": "1",
+   "section": "1",
+   "plat": "030",
+   "parcel": "091",
+   "st_area(shape)": 12304.574177710674,
+   "st_perimeter(shape)": 712.9888246467644
+  }
+ },
+ {
+  "label": "County Zoning - Hawaii",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/ParcelsZoning/MapServer/2",
+  "name": "County Zoning - County of Hawaii",
+  "geometryType": "esriGeometryPolygon",
+  "maxRecordCount": 1000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "objectid",
+    "OID",
+    "objectid"
+   ],
+   [
+    "zoning_id",
+    "Integer",
+    "zoning_id"
+   ],
+   [
+    "zone",
+    "String",
+    "zone"
+   ],
+   [
+    "district",
+    "String",
+    "district"
+   ],
+   [
+    "taxacres",
+    "String",
+    "taxacres"
+   ],
+   [
+    "ordinance",
+    "String",
+    "ordinance"
+   ],
+   [
+    "zone_map",
+    "String",
+    "zone_map"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "shape"
+   ],
+   [
+    "from_",
+    "String",
+    "FROM_"
+   ],
+   [
+    "date_",
+    "String",
+    "DATE_"
+   ],
+   [
+    "to_",
+    "String",
+    "TO"
+   ],
+   [
+    "st_area(shape)",
+    "Double",
+    "st_area(shape)"
+   ],
+   [
+    "st_perimeter(shape)",
+    "Double",
+    "st_perimeter(shape)"
+   ]
+  ],
+  "countInBbox": 289,
+  "sample": null
+ },
+ {
+  "label": "Special Management Areas",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/ParcelsZoning/MapServer/21",
+  "name": "Special Management Areas",
+  "geometryType": "esriGeometryPolygon",
+  "maxRecordCount": 1000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "objectid",
+    "OID",
+    "objectid"
+   ],
+   [
+    "acres",
+    "Double",
+    "acres"
+   ],
+   [
+    "smarea",
+    "SmallInteger",
+    "smarea"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "shape"
+   ],
+   [
+    "st_area(shape)",
+    "Double",
+    "st_area(shape)"
+   ],
+   [
+    "st_perimeter(shape)",
+    "Double",
+    "st_perimeter(shape)"
+   ]
+  ],
+  "countInBbox": 0,
+  "sample": null
+ },
+ {
+  "label": "State Land Use Districts",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/ParcelsZoning/MapServer/20",
+  "name": "State Land Use Districts",
+  "geometryType": "esriGeometryPolygon",
+  "maxRecordCount": 1000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "objectid",
+    "OID",
+    "objectid"
+   ],
+   [
+    "ludcode",
+    "String",
+    "ludcode"
+   ],
+   [
+    "island",
+    "String",
+    "island"
+   ],
+   [
+    "acres",
+    "Double",
+    "acres"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "shape"
+   ],
+   [
+    "st_area(shape)",
+    "Double",
+    "st_area(shape)"
+   ],
+   [
+    "st_perimeter(shape)",
+    "Double",
+    "st_perimeter(shape)"
+   ]
+  ],
+  "countInBbox": 25,
+  "sample": {
+   "objectid": 52,
+   "ludcode": "C",
+   "island": "Hawaii",
+   "acres": 1226829.13833225,
+   "st_area(shape)": 4964801377.647313,
+   "st_perimeter(shape)": 1416585.198415039
+  }
+ },
+ {
+  "label": "DHHL Lands",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/ParcelsZoning/MapServer/8",
+  "name": "DHHL Lands - Official Version",
+  "geometryType": "esriGeometryPolygon",
+  "maxRecordCount": 1000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "objectid",
+    "OID",
+    "OBJECTID"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "Shape"
+   ],
+   [
+    "island",
+    "String",
+    "Island"
+   ],
+   [
+    "gis_acres",
+    "Double",
+    "GIS_Acres"
+   ],
+   [
+    "st_area(shape)",
+    "Double",
+    "st_area(shape)"
+   ],
+   [
+    "st_perimeter(shape)",
+    "Double",
+    "st_perimeter(shape)"
+   ]
+  ],
+  "countInBbox": 0,
+  "sample": null
+ },
+ {
+  "label": "Lava Flow Hazard Zones",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/3",
+  "name": "Lava Flow Hazard Zones",
+  "geometryType": "esriGeometryPolygon",
+  "maxRecordCount": 2000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "objectid",
+    "OID",
+    "objectid"
+   ],
+   [
+    "vhzones_id",
+    "Integer",
+    "vhzones_id"
+   ],
+   [
+    "hzone",
+    "String",
+    "hzone"
+   ],
+   [
+    "mzone",
+    "String",
+    "mzone"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "shape"
+   ],
+   [
+    "st_area(shape)",
+    "Double",
+    "st_area(shape)"
+   ],
+   [
+    "st_perimeter(shape)",
+    "Double",
+    "st_perimeter(shape)"
+   ]
+  ],
+  "countInBbox": 2,
+  "sample": {
+   "objectid": 6,
+   "vhzones_id": 7,
+   "hzone": "3",
+   "mzone": "5",
+   "st_area(shape)": 779203699.3723897,
+   "st_perimeter(shape)": 163521.30867038787
+  }
+ },
+ {
+  "label": "Hawaii County DFIRM (flood)",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/14",
+  "name": "Hawaii County DFIRM",
+  "geometryType": "esriGeometryPolygon",
+  "maxRecordCount": 2000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "objectid",
+    "OID",
+    "OBJECTID"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "Shape"
+   ],
+   [
+    "fld_ar_id",
+    "String",
+    "FLD_AR_ID"
+   ],
+   [
+    "fld_zone",
+    "String",
+    "FLD_ZONE"
+   ],
+   [
+    "sfha_tf",
+    "String",
+    "SFHA_TF"
+   ],
+   [
+    "static_bfe",
+    "Double",
+    "STATIC_BFE"
+   ],
+   [
+    "v_datum",
+    "String",
+    "V_DATUM"
+   ],
+   [
+    "depth",
+    "Double",
+    "DEPTH"
+   ],
+   [
+    "len_unit",
+    "String",
+    "LEN_UNIT"
+   ],
+   [
+    "velocity",
+    "Double",
+    "VELOCITY"
+   ],
+   [
+    "vel_unit",
+    "String",
+    "VEL_UNIT"
+   ],
+   [
+    "ar_revert",
+    "String",
+    "AR_REVERT"
+   ],
+   [
+    "bfe_revert",
+    "Double",
+    "BFE_REVERT"
+   ],
+   [
+    "dep_revert",
+    "Double",
+    "DEP_REVERT"
+   ],
+   [
+    "source_cit",
+    "String",
+    "SOURCE_CIT"
+   ],
+   [
+    "dfirm_id",
+    "String",
+    "DFIRM_ID"
+   ],
+   [
+    "version_id",
+    "String",
+    "VERSION_ID"
+   ],
+   [
+    "study_typ",
+    "String",
+    "STUDY_TYP"
+   ],
+   [
+    "zone_subty",
+    "String",
+    "ZONE_SUBTY"
+   ],
+   [
+    "ar_subtrv",
+    "String",
+    "AR_SUBTRV"
+   ],
+   [
+    "dual_zone",
+    "String",
+    "DUAL_ZONE"
+   ],
+   [
+    "gfid",
+    "String",
+    "GFID"
+   ],
+   [
+    "st_area(shape)",
+    "Double",
+    "st_area(shape)"
+   ],
+   [
+    "st_perimeter(shape)",
+    "Double",
+    "st_perimeter(shape)"
+   ]
+  ],
+  "countInBbox": 1,
+  "sample": null
+ },
+ {
+  "label": "Tsunami Evacuation - All Zones",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/11",
+  "name": "Tsunami Evacuation - All Zones",
+  "geometryType": "esriGeometryPolygon",
+  "maxRecordCount": 2000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "objectid",
+    "OID",
+    "OBJECTID"
+   ],
+   [
+    "island",
+    "String",
+    "island"
+   ],
+   [
+    "zone_type",
+    "String",
+    "Zone_Type"
+   ],
+   [
+    "zone_desc",
+    "String",
+    "Zone_Desc"
+   ],
+   [
+    "zone_code",
+    "SmallInteger",
+    "zone_code"
+   ],
+   [
+    "tsu_evac",
+    "Integer",
+    "Tsu_Evac"
+   ],
+   [
+    "evac_zone",
+    "String",
+    "Evac_Zone"
+   ],
+   [
+    "mapnum",
+    "Integer",
+    "mapnum"
+   ],
+   [
+    "mapname",
+    "String",
+    "mapname"
+   ],
+   [
+    "areausac",
+    "Double",
+    "AreaUSac"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "Shape"
+   ],
+   [
+    "st_area(shape)",
+    "Double",
+    "st_area(shape)"
+   ],
+   [
+    "st_perimeter(shape)",
+    "Double",
+    "st_perimeter(shape)"
+   ]
+  ],
+  "countInBbox": 1,
+  "sample": null
+ },
+ {
+  "label": "Fire Risk Areas",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/7",
+  "name": "Fire Risk Areas",
+  "geometryType": "esriGeometryPolygon",
+  "maxRecordCount": 2000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "objectid",
+    "OID",
+    "objectid"
+   ],
+   [
+    "commu_name",
+    "String",
+    "commu_name"
+   ],
+   [
+    "island",
+    "String",
+    "island"
+   ],
+   [
+    "risk_rating",
+    "String",
+    "risk_rating"
+   ],
+   [
+    "zone",
+    "SmallInteger",
+    "zone"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "shape"
+   ],
+   [
+    "st_area(shape)",
+    "Double",
+    "st_area(shape)"
+   ],
+   [
+    "st_perimeter(shape)",
+    "Double",
+    "st_perimeter(shape)"
+   ]
+  ],
+  "countInBbox": 5,
+  "sample": {
+   "objectid": 111,
+   "commu_name": "Glenwood",
+   "island": "Hawaii",
+   "risk_rating": "Low",
+   "zone": 2,
+   "st_area(shape)": 115392890.42443858,
+   "st_perimeter(shape)": 44449.96961589612
+  }
+ },
+ {
+  "label": "Annual Rainfall (inches)",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/Climate/MapServer/13",
+  "name": "Annual Rainfall (inches)",
+  "geometryType": "esriGeometryPolyline",
+  "maxRecordCount": 1000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "st_length(shape)",
+    "Double",
+    "st_length(shape)"
+   ],
+   [
+    "objectid",
+    "OID",
+    "OBJECTID"
+   ],
+   [
+    "contour",
+    "Double",
+    "contour"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "Shape"
+   ]
+  ],
+  "countInBbox": 3,
+  "sample": {
+   "st_length(shape)": 125025.82565586867,
+   "objectid": 143,
+   "contour": 200.0
+  }
+ },
+ {
+  "label": "Hawaii 100 Foot Contours",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/Elevation/MapServer/1",
+  "name": "Hawaii 100 Foot Contours",
+  "geometryType": "esriGeometryPolyline",
+  "maxRecordCount": 5000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "st_length(shape)",
+    "Double",
+    "st_length(shape)"
+   ],
+   [
+    "objectid",
+    "OID",
+    "OBJECTID"
+   ],
+   [
+    "contour",
+    "Double",
+    "contour"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "Shape"
+   ]
+  ],
+  "countInBbox": 131,
+  "sample": {
+   "st_length(shape)": 303.2194359211279,
+   "objectid": 1013,
+   "contour": 1000.0
+  }
+ },
+ {
+  "label": "Hawaii County Roads",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/Transportation/MapServer/6",
+  "name": "Hawaii County Roads",
+  "geometryType": "esriGeometryPolyline",
+  "maxRecordCount": 5000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "st_length(shape)",
+    "Double",
+    "st_length(shape)"
+   ],
+   [
+    "objectid",
+    "OID",
+    "OBJECTID"
+   ],
+   [
+    "fullname",
+    "String",
+    "FULLNAME"
+   ],
+   [
+    "offclname",
+    "String",
+    "OFFCLNAME"
+   ],
+   [
+    "predir",
+    "String",
+    "PREDIR"
+   ],
+   [
+    "name",
+    "String",
+    "NAME"
+   ],
+   [
+    "suftype",
+    "String",
+    "SUFTYPE"
+   ],
+   [
+    "sufdir",
+    "String",
+    "SUFDIR"
+   ],
+   [
+    "a1dirpre",
+    "String",
+    "A1DIRPRE"
+   ],
+   [
+    "a1feanme",
+    "String",
+    "A1FEANME"
+   ],
+   [
+    "a1featyp",
+    "String",
+    "A1FEATYP"
+   ],
+   [
+    "a1dirsuf",
+    "String",
+    "A1DIRSUF"
+   ],
+   [
+    "a2dirpre",
+    "String",
+    "A2DIRPRE"
+   ],
+   [
+    "a2feanme",
+    "String",
+    "A2FEANME"
+   ],
+   [
+    "a2featyp",
+    "String",
+    "A2FEATYP"
+   ],
+   [
+    "a2dirsuf",
+    "String",
+    "A2DIRSUF"
+   ],
+   [
+    "approved",
+    "String",
+    "APPROVED"
+   ],
+   [
+    "appryear",
+    "String",
+    "APPRYEAR"
+   ],
+   [
+    "resnum",
+    "String",
+    "RESNUM"
+   ],
+   [
+    "subdivnum",
+    "String",
+    "SUBDIVNUM"
+   ],
+   [
+    "fraddl",
+    "Integer",
+    "FRADDL"
+   ],
+   [
+    "fraddr",
+    "Integer",
+    "FRADDR"
+   ],
+   [
+    "toaddl",
+    "Integer",
+    "TOADDL"
+   ],
+   [
+    "toaddr",
+    "Integer",
+    "TOADDR"
+   ],
+   [
+    "class",
+    "String",
+    "CLASS"
+   ],
+   [
+    "zipl",
+    "String",
+    "ZIPL"
+   ],
+   [
+    "zipr",
+    "String",
+    "ZIPR"
+   ],
+   [
+    "statertenm",
+    "String",
+    "STATERTENM"
+   ],
+   [
+    "remarks",
+    "String",
+    "REMARKS"
+   ],
+   [
+    "district",
+    "String",
+    "DISTRICT"
+   ],
+   [
+    "created_date",
+    "Date",
+    "created_date"
+   ],
+   [
+    "last_edited_date",
+    "Date",
+    "last_edited_date"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "Shape"
+   ]
+  ],
+  "countInBbox": 440,
+  "sample": {
+   "st_length(shape)": 157.38217053301832,
+   "objectid": 358,
+   "fullname": "S PSZYK RD",
+   "offclname": "S PSZYK RD",
+   "predir": "S",
+   "name": "PSZYK",
+   "suftype": "RD",
+   "sufdir": " ",
+   "a1dirpre": " ",
+   "a1feanme": " ",
+   "a1featyp": " ",
+   "a1dirsuf": " ",
+   "a2dirpre": " ",
+   "a2feanme": " ",
+   "a2featyp": " ",
+   "a2dirsuf": " ",
+   "approved": "Y",
+   "appryear": "1971",
+   "resnum": "387-71",
+   "subdivnum": " ",
+   "fraddl": 183783,
+   "fraddr": 183784,
+   "toaddl": 183787,
+   "toaddr": 183788,
+   "class": "A41",
+   "zipl": "96771",
+   "zipr": "96771",
+   "statertenm": " ",
+   "remarks": " ",
+   "district": "PUNA",
+   "created_date": null,
+   "last_edited_date": 1582400859000
+  }
+ },
+ {
+  "label": "Onsite Sewage Disposal Systems - Hawaii",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/Infrastructure/MapServer/26",
+  "name": "Onsite Sewage Disposal Systems - Hawaii",
+  "geometryType": "esriGeometryPoint",
+  "maxRecordCount": 1000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "objectid",
+    "OID",
+    "FID"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "Shape"
+   ],
+   [
+    "island",
+    "String",
+    "ISLAND"
+   ],
+   [
+    "tmk",
+    "Double",
+    "TMK"
+   ],
+   [
+    "bldgval",
+    "Double",
+    "BLDGVAL"
+   ],
+   [
+    "bldexem",
+    "Double",
+    "BLDEXEM"
+   ],
+   [
+    "pittcode",
+    "Double",
+    "PITTCODE"
+   ],
+   [
+    "homeownr",
+    "String",
+    "HOMEOWNR"
+   ],
+   [
+    "gisacres",
+    "Double",
+    "GISACRES"
+   ],
+   [
+    "osds_qty",
+    "Double",
+    "OSDS_QTY"
+   ],
+   [
+    "class_i",
+    "Double",
+    "CLASS_I"
+   ],
+   [
+    "class_ii",
+    "Double",
+    "CLASS_II"
+   ],
+   [
+    "class_iii",
+    "Double",
+    "CLASS_III"
+   ],
+   [
+    "class_iv",
+    "Double",
+    "CLASS_IV"
+   ],
+   [
+    "effluent",
+    "Double",
+    "EFFLUENT"
+   ],
+   [
+    "n_flux",
+    "Double",
+    "N_FLUX"
+   ],
+   [
+    "p_flux",
+    "Double",
+    "P_FLUX"
+   ],
+   [
+    "commercial",
+    "String",
+    "COMMERCIAL"
+   ],
+   [
+    "source",
+    "String",
+    "SOURCE"
+   ],
+   [
+    "no_struct",
+    "Double",
+    "NO_STRUCT"
+   ],
+   [
+    "ttl_bdrms",
+    "Double",
+    "TTL_BDRMS"
+   ],
+   [
+    "no_bath",
+    "Double",
+    "NO_BATH"
+   ],
+   [
+    "prmt_no",
+    "Double",
+    "PRMT_NO"
+   ],
+   [
+    "prmt_id",
+    "Double",
+    "PRMT_ID"
+   ],
+   [
+    "uic_no",
+    "String",
+    "UIC_NO"
+   ],
+   [
+    "inject",
+    "String",
+    "INJECT"
+   ],
+   [
+    "wwtp",
+    "String",
+    "WWTP"
+   ],
+   [
+    "class",
+    "Double",
+    "CLASS"
+   ],
+   [
+    "type",
+    "String",
+    "TYPE"
+   ],
+   [
+    "ownr_typ",
+    "String",
+    "OWNR_TYP"
+   ],
+   [
+    "wwtp_ownr",
+    "String",
+    "WWTP_OWNR"
+   ],
+   [
+    "contact",
+    "String",
+    "CONTACT"
+   ],
+   [
+    "eng",
+    "String",
+    "ENG"
+   ],
+   [
+    "op_drc",
+    "String",
+    "OP_DRC"
+   ],
+   [
+    "comments",
+    "String",
+    "COMMENTS"
+   ]
+  ],
+  "countInBbox": 2760,
+  "sample": {
+   "objectid": 330,
+   "island": "Hawaii",
+   "tmk": 311031091.0,
+   "bldgval": 41300.0,
+   "bldexem": 0.0,
+   "pittcode": 500.0,
+   "homeownr": "N",
+   "gisacres": 3.03888731,
+   "osds_qty": 1.0,
+   "class_i": 0.0,
+   "class_ii": 0.0,
+   "class_iii": 0.0,
+   "class_iv": 1.0,
+   "effluent": 400.0,
+   "n_flux": 0.091597,
+   "p_flux": 0.024981,
+   "commercial": " ",
+   "source": "DWEL/CP_db",
+   "no_struct": 1.0,
+   "ttl_bdrms": 2.0,
+   "no_bath": 1.0,
+   "prmt_no": -9999.0,
+   "prmt_id": -9999.0,
+   "uic_no": " ",
+   "inject": " ",
+   "wwtp": " ",
+   "class": -9999.0,
+   "type": " ",
+   "ownr_typ": " ",
+   "wwtp_ownr": " ",
+   "contact": " ",
+   "eng": " ",
+   "op_drc": " ",
+   "comments": " "
+  }
+ },
+ {
+  "label": "HCPT Cesspools",
+  "url": "https://geodata.hawaii.gov/arcgis/rest/services/Infrastructure/MapServer/32",
+  "name": "HCPT Cesspools",
+  "geometryType": "esriGeometryPoint",
+  "maxRecordCount": 1000,
+  "queryFormats": "JSON, geoJSON, PBF",
+  "lastEditDate": null,
+  "fields": [
+   [
+    "objectid",
+    "OID",
+    "OBJECTID"
+   ],
+   [
+    "uid",
+    "String",
+    "Uid"
+   ],
+   [
+    "x",
+    "Double",
+    "X"
+   ],
+   [
+    "y",
+    "Double",
+    "Y"
+   ],
+   [
+    "island",
+    "String",
+    "Island"
+   ],
+   [
+    "tmk",
+    "Integer",
+    "TMK"
+   ],
+   [
+    "blockbk_id",
+    "Integer",
+    "BlockBk_ID"
+   ],
+   [
+    "blockgp_id",
+    "Integer",
+    "BlockGp_ID"
+   ],
+   [
+    "track_id",
+    "Integer",
+    "Track_ID"
+   ],
+   [
+    "flikr_id",
+    "String",
+    "Flikr_ID"
+   ],
+   [
+    "flikr_x",
+    "Double",
+    "Flikr_X"
+   ],
+   [
+    "flikr_y",
+    "Double",
+    "Flikr_Y"
+   ],
+   [
+    "userdays",
+    "Integer",
+    "UserDays"
+   ],
+   [
+    "swim_beach",
+    "String",
+    "Swim_beach"
+   ],
+   [
+    "dist2_coast_m",
+    "Double",
+    "dist2_coast_m"
+   ],
+   [
+    "dist2_munwells_m",
+    "Double",
+    "dist2_MunWells_m"
+   ],
+   [
+    "dist2_domwells_m",
+    "Double",
+    "dist2_DomWells_m"
+   ],
+   [
+    "dist2_streams_m",
+    "Double",
+    "dist2_Streams_m"
+   ],
+   [
+    "nrcs_dtobrock",
+    "Double",
+    "nrcs_DtoBrock"
+   ],
+   [
+    "nrcs_floodfreq",
+    "String",
+    "nrcs_FloodFreq"
+   ],
+   [
+    "nrcs_septic_dominant",
+    "String",
+    "nrcs_septic_dominant"
+   ],
+   [
+    "nrcs_septic_least",
+    "String",
+    "nrcs_septic_least"
+   ],
+   [
+    "nrcs_septic_most",
+    "String",
+    "nrcs_septic_most"
+   ],
+   [
+    "nrcs_ksat_hi",
+    "Double",
+    "nrcs_ksat_hi"
+   ],
+   [
+    "nrcs_ksat_lo",
+    "Double",
+    "nrcs_ksat_lo"
+   ],
+   [
+    "nrcs_ksat_rep",
+    "Double",
+    "nrcs_ksat_rep"
+   ],
+   [
+    "nrcs_rockfrag3in",
+    "Double",
+    "nrcs_rockFrag3in"
+   ],
+   [
+    "rainfall_in",
+    "Double",
+    "rainfall_in"
+   ],
+   [
+    "slope_deg",
+    "Double",
+    "slope_deg"
+   ],
+   [
+    "osds_density_peracre",
+    "Double",
+    "OSDS_Density_perAcre"
+   ],
+   [
+    "dist2_wetlands_m",
+    "Double",
+    "dist2_Wetlands_m"
+   ],
+   [
+    "wt_elev_m",
+    "Double",
+    "WT_elev_m"
+   ],
+   [
+    "elevation_m",
+    "Double",
+    "Elevation_m"
+   ],
+   [
+    "dep_to_water_m",
+    "Double",
+    "Dep_to_Water_m"
+   ],
+   [
+    "inslr2030",
+    "String",
+    "InSLR2030"
+   ],
+   [
+    "inslr2050",
+    "String",
+    "InSLR2050"
+   ],
+   [
+    "inslr2100",
+    "String",
+    "InSLR2100"
+   ],
+   [
+    "in_wellcz_b",
+    "String",
+    "In_WellCZ_B"
+   ],
+   [
+    "in_wellcz_c",
+    "String",
+    "In_WellCZ_C"
+   ],
+   [
+    "rfish_rank",
+    "Integer",
+    "RFish_rank"
+   ],
+   [
+    "coral_rank",
+    "Integer",
+    "Coral_rank"
+   ],
+   [
+    "in_2017_cp_zone",
+    "String",
+    "In_2017_CP_zone"
+   ],
+   [
+    "wave_pwr",
+    "Double",
+    "Wave_pwr"
+   ],
+   [
+    "dist2_strm_wtlnd_m",
+    "Double",
+    "dist2_Strm_Wtlnd_m"
+   ],
+   [
+    "shape",
+    "Geometry",
+    "Shape"
+   ]
+  ],
+  "countInBbox": 2410,
+  "sample": {
+   "objectid": 26169,
+   "uid": "-155.12835_19.48043",
+   "x": -155.12835138,
+   "y": 19.48043941,
+   "island": "BI",
+   "tmk": 311029102,
+   "blockbk_id": 5459,
+   "blockgp_id": 188,
+   "track_id": 111,
+   "flikr_id": "flk_674_BI",
+   "flikr_x": -154.94795023,
+   "flikr_y": 19.60452091,
+   "userdays": 2,
+   "swim_beach": null,
+   "dist2_coast_m": 19577.51647715,
+   "dist2_munwells_m": 5291.12415868,
+   "dist2_domwells_m": 16818.83372585,
+   "dist2_streams_m": 1562.37414627,
+   "nrcs_dtobrock": 13.0,
+   "nrcs_floodfreq": "Occasional",
+   "nrcs_septic_dominant": "Very limited",
+   "nrcs_septic_least": "Not rated",
+   "nrcs_septic_most": "Very limited",
+   "nrcs_ksat_hi": 43.70111111,
+   "nrcs_ksat_lo": 13.62333333,
+   "nrcs_ksat_rep": 29.91111111,
+   "nrcs_rockfrag3in": null,
+   "rainfall_in": 195.80342102,
+   "slope_deg": 0.91090024,
+   "osds_density_peracre": 0.0396478,
+   "dist2_wetlands_m": 2488.66328544,
+   "wt_elev_m": 23.6029377,
+   "elevation_m": 644.76904297,
+   "dep_to_water_m": 621.16610527,
+   "inslr2030": null,
+   "inslr2050": null,
+   "inslr2100": null,
+   "in_wellcz_b": null,
+   "in_wellcz_c": null,
+   "rfish_rank": 2,
+   "coral_rank": 4,
+   "in_2017_cp_zone": "True",
+   "wave_pwr": 13.4485302,
+   "dist2_strm_wtlnd_m": 1562.37414627
+  }
+ }
+]

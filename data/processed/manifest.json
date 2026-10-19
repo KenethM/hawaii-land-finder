@@ -1,0 +1,62 @@
+{
+ "parcels": {
+  "source": "https://geodata.hawaii.gov/arcgis/rest/services/ParcelsZoning/MapServer/5",
+  "fetched": "2026-10-16",
+  "count": 9486
+ },
+ "zoning": {
+  "source": "https://geodata.hawaii.gov/arcgis/rest/services/ParcelsZoning/MapServer/2",
+  "fetched": "2026-10-16",
+  "count": 289
+ },
+ "lava": {
+  "source": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/3",
+  "fetched": "2026-10-16",
+  "count": 2
+ },
+ "flood": {
+  "source": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/14",
+  "fetched": "2026-10-16",
+  "count": 1
+ },
+ "tsunami": {
+  "source": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/11",
+  "fetched": "2026-10-16",
+  "count": 1
+ },
+ "fire": {
+  "source": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/7",
+  "fetched": "2026-10-16",
+  "count": 5
+ },
+ "sma": {
+  "source": "https://geodata.hawaii.gov/arcgis/rest/services/ParcelsZoning/MapServer/21",
+  "fetched": "2026-10-16",
+  "count": 0
+ },
+ "rainfall": {
+  "source": "https://geodata.hawaii.gov/arcgis/rest/services/Climate/MapServer/13",
+  "fetched": "2026-10-16",
+  "count": 3
+ },
+ "contours": {
+  "source": "https://geodata.hawaii.gov/arcgis/rest/services/Elevation/MapServer/1",
+  "fetched": "2026-10-16",
+  "count": 131
+ },
+ "roads": {
+  "source": "https://geodata.hawaii.gov/arcgis/rest/services/Transportation/MapServer/6",
+  "fetched": "2026-10-16",
+  "count": 441
+ },
+ "cesspool_tool": {
+  "source": "https://geodata.hawaii.gov/arcgis/rest/services/Infrastructure/MapServer/32",
+  "fetched": "2026-10-16",
+  "count": 2410
+ },
+ "road_maint": {
+  "source": "https://services1.arcgis.com/C2LPusZs5OXNGFDn/arcgis/rest/services/Roads_Maintainer_Owner_Public_View/FeatureServer/0",
+  "fetched": "2026-10-17",
+  "count": 204
+ }
+}

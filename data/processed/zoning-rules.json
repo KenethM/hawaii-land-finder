@@ -1,0 +1,199 @@
+{
+  "_readme": "Build rules for the 'What could I build?' estimate. Setbacks come from setback_classes, chosen by the zone's family and the lot's size (the county brochure keys setbacks to lot size, not just zone). Families: AG = A-*a zones, RA = RA-.5a, RS = RS-* (by parcel sq ft), null = no setback data yet (no estimate shown). setbacks_confirmed stays false until Hawaii County Planning confirms the 2019 brochure is current. Per-zone coverage/height/dwellings must come from Hawaii County Code Ch. 25 with a citation; never fill from memory.",
+  "setbacks_confirmed": false,
+  "setbacks_last_checked": "2026-10-17",
+  "sources": {
+    "setback_brochure_2019": {
+      "title": "Setback Requirements for Residential & Agricultural Districts",
+      "publisher": "County of Hawai'i Planning Department",
+      "revision": "Rev. April 2019",
+      "url": "https://records.hawaiicounty.gov/weblink/1/edoc/140146/BLG_SETBACK_BROCHURE_REV2019.pdf",
+      "notes": "Table column A (structure setback). Accessory buildings (sheds, water tanks, carports) observe the same yards. Irregular lots: the Planning Director specifies yards."
+    }
+  },
+  "setback_classes": {
+    "RS_LT_10000SF": {
+      "label": "Residential lot under 10,000 sq ft",
+      "brochure_row": "RS < 7,500 - 9,999",
+      "front_rear_ft": 15,
+      "side_ft": 8,
+      "source": "setback_brochure_2019"
+    },
+    "RS_10000_19999SF": {
+      "label": "Residential lot 10,000–19,999 sq ft",
+      "brochure_row": "RS: 10,000 - 19,999",
+      "front_rear_ft": 20,
+      "side_ft": 10,
+      "source": "setback_brochure_2019"
+    },
+    "RS_GE_20000SF": {
+      "label": "Residential lot 20,000 sq ft or more",
+      "brochure_row": "RS ≥ 20,000",
+      "front_rear_ft": 25,
+      "side_ft": 15,
+      "source": "setback_brochure_2019"
+    },
+    "RD_3_75": {
+      "label": "RD-3.75 district",
+      "brochure_row": "RD-3.75",
+      "front_rear_ft": 15,
+      "side_ft": 8,
+      "source": "setback_brochure_2019"
+    },
+    "RA_05A": {
+      "label": "RA-.5a district",
+      "brochure_row": "RA-.5a",
+      "front_rear_ft": 25,
+      "side_ft": 15,
+      "source": "setback_brochure_2019"
+    },
+    "AG_GE_1AC": {
+      "label": "Agricultural lot 1 acre or more",
+      "brochure_row": "AG ≥ 1 acre",
+      "front_rear_ft": 30,
+      "side_ft": 20,
+      "source": "setback_brochure_2019"
+    },
+    "AG_05_TO_1AC": {
+      "label": "Agricultural lot ½ to 1 acre",
+      "brochure_row": "AG < 1 acre - .5a",
+      "front_rear_ft": 25,
+      "side_ft": 15,
+      "source": "setback_brochure_2019"
+    }
+  },
+  "zones": {
+    "A-1a": {
+      "family": "AG",
+      "max_lot_coverage_pct": null,
+      "max_height_ft": null,
+      "dwellings_allowed": null,
+      "ohana_adu_allowed": null,
+      "citation": null,
+      "last_verified": null,
+      "verified": false,
+      "notes": null
+    },
+    "A-3a": {
+      "family": "AG",
+      "max_lot_coverage_pct": null,
+      "max_height_ft": null,
+      "dwellings_allowed": null,
+      "ohana_adu_allowed": null,
+      "citation": null,
+      "last_verified": null,
+      "verified": false,
+      "notes": null
+    },
+    "A-5a": {
+      "family": "AG",
+      "max_lot_coverage_pct": null,
+      "max_height_ft": null,
+      "dwellings_allowed": null,
+      "ohana_adu_allowed": null,
+      "citation": null,
+      "last_verified": null,
+      "verified": false,
+      "notes": null
+    },
+    "A-10a": {
+      "family": "AG",
+      "max_lot_coverage_pct": null,
+      "max_height_ft": null,
+      "dwellings_allowed": null,
+      "ohana_adu_allowed": null,
+      "citation": null,
+      "last_verified": null,
+      "verified": false,
+      "notes": null
+    },
+    "A-20a": {
+      "family": "AG",
+      "max_lot_coverage_pct": null,
+      "max_height_ft": null,
+      "dwellings_allowed": null,
+      "ohana_adu_allowed": null,
+      "citation": null,
+      "last_verified": null,
+      "verified": false,
+      "notes": null
+    },
+    "RA-.5a": {
+      "family": "RA",
+      "max_lot_coverage_pct": null,
+      "max_height_ft": null,
+      "dwellings_allowed": null,
+      "ohana_adu_allowed": null,
+      "citation": null,
+      "last_verified": null,
+      "verified": false,
+      "notes": null
+    },
+    "RS-10": {
+      "family": "RS",
+      "max_lot_coverage_pct": null,
+      "max_height_ft": null,
+      "dwellings_allowed": null,
+      "ohana_adu_allowed": null,
+      "citation": null,
+      "last_verified": null,
+      "verified": false,
+      "notes": null
+    },
+    "RS-20": {
+      "family": "RS",
+      "max_lot_coverage_pct": null,
+      "max_height_ft": null,
+      "dwellings_allowed": null,
+      "ohana_adu_allowed": null,
+      "citation": null,
+      "last_verified": null,
+      "verified": false,
+      "notes": null
+    },
+    "CV-10": {
+      "family": null,
+      "max_lot_coverage_pct": null,
+      "max_height_ft": null,
+      "dwellings_allowed": null,
+      "ohana_adu_allowed": null,
+      "citation": null,
+      "last_verified": null,
+      "verified": false,
+      "notes": null
+    },
+    "ML-20": {
+      "family": null,
+      "max_lot_coverage_pct": null,
+      "max_height_ft": null,
+      "dwellings_allowed": null,
+      "ohana_adu_allowed": null,
+      "citation": null,
+      "last_verified": null,
+      "verified": false,
+      "notes": null
+    },
+    "FR": {
+      "family": null,
+      "max_lot_coverage_pct": null,
+      "max_height_ft": null,
+      "dwellings_allowed": null,
+      "ohana_adu_allowed": null,
+      "citation": null,
+      "last_verified": null,
+      "verified": false,
+      "notes": null
+    },
+    "OPEN": {
+      "family": null,
+      "max_lot_coverage_pct": null,
+      "max_height_ft": null,
+      "dwellings_allowed": null,
+      "ohana_adu_allowed": null,
+      "citation": null,
+      "last_verified": null,
+      "verified": false,
+      "notes": null
+    }
+  }
+}
